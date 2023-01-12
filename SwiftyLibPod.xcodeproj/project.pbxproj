@@ -15,6 +15,7 @@
 		63B86362296E5845000A507C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B86361296E5845000A507C /* ContentView.swift */; };
 		63B86364296E5846000A507C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B86363296E5846000A507C /* Assets.xcassets */; };
 		63B86367296E5846000A507C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B86366296E5846000A507C /* Preview Assets.xcassets */; };
+		63C66518296F9C5B0099C8A7 /* SwiftyLibPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C66517296F9C5B0099C8A7 /* SwiftyLibPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		63B86361296E5845000A507C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63B86363296E5846000A507C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B86366296E5846000A507C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63C66517296F9C5B0099C8A7 /* SwiftyLibPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				63B86342296E4148000A507C /* SwiftyLibPod.h */,
 				63B86343296E4148000A507C /* SwiftyLibPod.docc */,
+				63C66517296F9C5B0099C8A7 /* SwiftyLibPod.swift */,
 			);
 			path = SwiftyLibPod;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B86344296E4148000A507C /* SwiftyLibPod.docc in Sources */,
+				63C66518296F9C5B0099C8A7 /* SwiftyLibPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +476,7 @@
 		63B86357296E4148000A507C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QVFWV3WXJ;
@@ -488,6 +493,7 @@
 		63B86358296E4148000A507C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9QVFWV3WXJ;
